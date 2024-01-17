@@ -1,0 +1,62 @@
+.table {
+    margin-top: 50px;
+}
+
+th {
+    width: 150px;
+}
+
+ .table, td, th {
+    border: 1px solid #000;
+    padding: 15px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table-btn {
+    display: flex;
+    gap: 30px;
+    > .btn-detalhes {
+        background-color: rgb(217, 217, 72);
+        border: 1px solid rgb(217, 217, 72);
+        color: #000000af;
+    }
+    > .btn-detalhes:hover {
+        background-color: rgb(222, 222, 43);
+        border: 1px solid rgb(222, 222, 43);
+        color: #000000;
+    }
+    > .btn-editar {
+        color: green;
+        border: 1px solid green;
+    }
+    > .btn-editar:hover {
+        background-color: green;
+        border: 1px solid green;
+        color: #000;
+    }
+
+    > a {
+        padding: 5px;
+        transition: 0.5s;
+    }
+    > button {
+        border: 1px solid red;
+        color: red;
+        padding: 5px;
+        transition: 0.5s;
+    }
+    > button:hover {
+        color: #000000a1;
+        background-color: rgb(203, 123, 123);
+        border: 1px solid rgb(203, 123, 123);
+    }
+}
+
+@media (max-width: 700px) {
+    .table, td, th {
+        border: 0.5px solid #000;
+        padding: 1px;
+    }
+}
+

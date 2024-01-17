@@ -1,0 +1,40 @@
+.container-header {
+    display: flex;
+    width: 100%;
+    background-color: rgb(91, 91, 160);
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #0000004e;
+}
+
+.logo {
+    font-size: 30px;
+    color: #FFF;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.pages a {
+    padding: 10px;
+    color: #FFF;
+    border: 1px solid #FFF;
+    box-shadow: 5px 5px 10px #0000004e;
+}
+
+@media screen and (max-width: 700px){
+    .container-header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .container-header {
+        text-align: center;
+    }
+}
